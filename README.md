@@ -5,10 +5,10 @@ Simple async function queuing module. Will call 'complete' function if empty que
 
 ## Usage
 
-``npm install nQueue``
+``npm install nqueue``
 
 ```javascript
-var nQueue = require('nQueue');
+var nQueue = require('nqueue');
 
 nQueue.push(function(queueItemCallback) {
 	// do some stuff and call queueItemCallback() when completey
